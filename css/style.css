@@ -52,7 +52,6 @@ body{
   width: calc(40% - 20px);
   border-radius: 10px;
   box-shadow: 2px 2px 5px gray;
-  transition: background-color 0.2s ease-in-out;
   border: none;
   position: relative;
   overflow: hidden;
