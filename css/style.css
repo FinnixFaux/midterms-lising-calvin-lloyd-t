@@ -89,3 +89,34 @@ body{
   background-color: transparent;
   font-size: small;
 }
+
+#services {
+  padding: 100px;
+  margin-top: 200px;
+  background-color: rgb(218, 218, 218);
+}
+
+#services h2 {
+  font-size: x-large;
+  text-align: center;
+}
+
+#services ul {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#services li {
+  font-size: medium;
+  width: 150px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+#services li:hover {
+  background-color: orangered;
+}
