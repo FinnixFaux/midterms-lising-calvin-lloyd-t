@@ -57,6 +57,11 @@ body{
   overflow: hidden;
 }
 
+#blog div:nth-of-type(3){
+  background-color: black;
+  color: white;
+}
+
 #blog div div {
   flex: 1;
   padding: 20px;
@@ -68,12 +73,6 @@ body{
   object-fit: cover;
   object-position: center;
 }  
-
-#blog div h3 {
-  margin-bottom: 10px;
-  font-size: medium;
-  text-align: left
-}
 
 #blog div p {
   margin-bottom: 10px;
